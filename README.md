@@ -14,8 +14,8 @@
 - **addi:** `rd = rs1 + imm` *(Example: If rs1 = 7 and imm = 3, then rd = 10).*
 
 ## Load/Store Instructions:
-- **lw:** `rd = Mem[rs1 + imm]` *(Example: If rs1 = 1000 and imm = 0011, then rd receives the value stored at memory position 1000 + 3).*
-- **sw:** `Mem[rs1 + imm] = rs2` *(Example: If rs1 = 1010, imm = 0100, and rs2 = 1101, then the value 1101 is stored at memory position 1010 + 4).*
+- **lb:** `rd = Mem[rs1 + imm]` *(Example: If rs1 = 1000 and imm = 0011, then rd receives the value stored at memory position 1000 + 3).*
+- **sb:** `Mem[rs1 + imm] = rs2` *(Example: If rs1 = 1010, imm = 0100, and rs2 = 1101, then the value 1101 is stored at memory position 1010 + 4).*
 
 ## Branch Instructions:
 - **beq:** `if (rs1 == rs2) pc = pc + imm` *(Example: If rs1 = 6, rs2 = 6, and imm = 2, then there will be a conditional jump).*
