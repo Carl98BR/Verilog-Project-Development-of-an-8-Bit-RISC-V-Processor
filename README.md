@@ -1,5 +1,5 @@
 # Verilog Project: Development of an 8-Bit RISC-V Processor
-![Diagrama RISC-V](images/diagrama_riscv.svg)
+![Diagrama RISC-V](images/diagram_riscv.svg)
 
 ## R-Type Instructions:
 - **add:** `rd = rs1 + rs2` *(Example: If rs1 = 5 and rs2 = 7, then rd = 12).*
