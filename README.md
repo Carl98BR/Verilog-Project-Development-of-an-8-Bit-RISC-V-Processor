@@ -9,6 +9,7 @@
 - **xor:** `rd = rs1 XOR rs2` *(Example: If rs1 = 1101 and rs2 = 1010, then rd = 0111).*
 
 ## I-Type Instructions:
+- **xori:** `rd = rs1 XOR imm` *(Example: If rs1 = 1101 and imm = 1010, then rd = 0111).*
 - **ori:** `rd = rs1 OR imm` *(Example: If rs1 = 1010 and imm = 0011, then rd = 1011).*
 - **slti:** `rd = (rs1 < imm) ? 1 : 0` *(Example: If rs1 = 5 and imm = 8, then rd = 1).*
 - **addi:** `rd = rs1 + imm` *(Example: If rs1 = 7 and imm = 3, then rd = 10).*
